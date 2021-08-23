@@ -25,10 +25,9 @@
     ],
     "require": {
         "composer/installers": "~1.0",
-        "chkilel/vitewind-plugin": "dev-main"
+        "chkilel/vitewindmanager-plugin": "dev-main"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
     }
 }
-
