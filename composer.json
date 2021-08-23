@@ -1,0 +1,34 @@
+{
+    "name": "chkilel/vitewind-theme",
+    "description": "Octobercms theme with the power of Windi CSS and the speed of Vite JS.",
+    "type": "october-theme",
+    "homepage": "https://github.com/chkilel/vitewind-theme",
+    "keywords": [
+        "octobercms",
+        "october",
+        "wintercms",
+        "winter",
+        "vite",
+        "vite js",
+        "windicss",
+        "windi css",
+        "theme"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adil Chehabi",
+            "email": "adil@chehabi.ma",
+            "role": "Creator",
+            "homepage": "https://chehabi.me"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "chkilel/vitewind-plugin": "dev-main"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
+

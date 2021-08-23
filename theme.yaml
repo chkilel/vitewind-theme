@@ -1,0 +1,70 @@
+name: "Vitewind"
+description: "Octobercms theme with the power of Windi CSS and the speed of Vite JS."
+author: "Adil Chehabi <Chkilel>"
+homepage: "https://chehabi.me"
+code: vitewind
+authorCode: Chkilel
+require:
+  - Chkilel.Vitewind
+
+form:
+    fields:
+        author:
+            label: Author
+            span: full
+        site_name:
+            label: Site name
+            span: left
+        email:
+            label: Email
+            span: right
+            type: text
+        copyright:
+            label: Copyright
+            span: right
+            type: Text
+        _section_logos:
+            label: Logos
+            type: section
+            span: full
+            comment: Header and footer Logos
+        logo_header:
+            label: Header Logo
+            type: mediafinder
+            span: left
+            mode: image
+            imageHeight: auto
+            imageWidth: 300
+
+        logo_footer:
+            label: Footer Logo
+            type: mediafinder
+            span: right
+            mode: image
+            imageHeight: auto
+            imageWidth: 300
+
+    tabs:
+        fields:
+            socials:
+                type: repeater
+                prompt: Add a social media
+                style: accordion
+                tab: Social media
+                form:
+                    fields:
+                        url:
+                            label: URL
+                            span: storm
+                            cssClass: col-md-4
+                            type: text
+                        icon:
+                            label: icon
+                            span: storm
+                            cssClass: col-md-4
+                            type: iconesfinder
+                        color:
+                            label: Color
+                            span: storm
+                            cssClass: col-md-4
+                            type: colorpicker

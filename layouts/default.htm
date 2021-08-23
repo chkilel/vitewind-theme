@@ -1,0 +1,42 @@
+description = "Default layout"
+
+[vitewindAssets]
+js[] = "app.js"
+js[] = "home.js"
+
+[staticPage]
+useContent = 1
+default = 0
+==
+<!DOCTYPE html>
+<html lang="en">
+<html lang="{{ activeLocale ?: 'en' }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Adil Chehabi <Chkilel>">
+    <meta title="{{ this.page.meta_title }}">
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>{{ this.page.title }} | Vitewind theme</title>
+    {% styles %}
+
+</head>
+<body class="overflow-x-hidden antialiased">
+
+    {% partial 'header' %}
+
+    {% page %}
+
+    {% partial 'footer' %}
+
+    {% scripts %}
+</body>
+
+</html>
