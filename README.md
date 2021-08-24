@@ -47,8 +47,9 @@
 
 Go to your backend to **Settings > System > Updates & Plugins** and install the theme `Chkilel.Vitewind`, then install the following Plugin. (just copy & paste the PluginID below and put it in the search box.)
 ```
-    - Chkilel.Vitewind
+    - Chkilel.VitewindManager
 ```
+> Cannot work without Vitewind Manager plugin, please install before to use the theme.
 
 ## Theme Setup
 
