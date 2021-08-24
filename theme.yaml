@@ -5,7 +5,7 @@ homepage: "https://chehabi.me"
 code: vitewind
 authorCode: Chkilel
 require:
-  - Chkilel.Vitewind
+  - Chkilel.VitewindManager
 
 form:
     fields:
