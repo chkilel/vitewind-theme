@@ -3,7 +3,8 @@ import WindiCSS from 'vite-plugin-windicss'
 import {resolve} from 'path'
 
 export default ({command}) => ({
-    base: command === 'serve' ? '' : '/themes/vitewind/public/build/',
+    // please update the path name [chkilel-vitewind] to your theme folder name
+    base: command === 'serve' ? '' : '/themes/chkilel-vitewind/public/build/',
     publicDir: 'fake_dir_so_nothing_gets_copied',
     processCssUrls: true,
     build: {
