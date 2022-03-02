@@ -29,7 +29,7 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "vite": "^2.5.0",
-        "vite-plugin-windicss": "^1.2.7"
+        "vite": "^2.8.6",
+        "vite-plugin-windicss": "^1.8.1"
     }
 }
