@@ -65,13 +65,13 @@ Go to your backend to **Settings > Vitewind theme**, and configure the following
 ![Setting Vitewind](./assets/images/settings.png)
 
         Environment:
-            - Use `.env` configuration : will use the `APP_ENV` value in the .env file
-            - Development
-            - Production
+            - Use `.env` configuration  : will use the `APP_ENV` value in the .env file
+            - Development               : if you are working on the theme development (npm run dev)
+            - Production                : if you are in production, the theme must be built before (npm run build)
 
-        Port number : Enter the port on which the theme dev server is running (when you run `npm run dev`)
+        Port number : Enter the port on which the theme dev server is running (when you run `npm run dev`), default to 3000.
 
-        Theme: choose the appropiate theme, for example if you renamed the theme name
+        Theme: select the appropiate theme, if you modified the theme name in the `theme.yaml` file.
 
 
 ## Vite config file
@@ -118,7 +118,7 @@ Put the component in every layout and set the JS files you need to load for that
 Run the command below in your theme folder:
 
 ```
-npm run watch
+npm run dev
 ```
 The theme DEV server will start on `http://localhost:3000/` and listen to any modification in your `.htm` files ( layouts, pages, partials,...).
 then, you can visite your site on its usual URL and start development.
@@ -140,6 +140,9 @@ MIT License - check out [LICENSE](LICENSE) file for MIT license details.
 
 ## Changelog
 
-### 1.0.0 : initial release
-
+#### 1.0.0 : initial release
 - Vitewind: the magic of Windi CSS and the speed of Vite JS
+#### 1.0.1 : Update theme dependency
+- Update theme dependencies
+#### 1.1.0 : Update dependencies and fix minor bugs
+- Fix theme directory path in `vite.config.js`
